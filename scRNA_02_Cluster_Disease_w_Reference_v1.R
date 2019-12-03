@@ -79,6 +79,45 @@ calcLSI <- function(mat, nComponents = 50, binarize = TRUE, nFeatures = NULL){
 
 }
 
+projectLSI <- function(mat, lsi){   
+    
+    #Get Same Features
+    mat <- mat[lsi$idx,]
+    if(lsi$binarize){
+        message(paste0("Binarizing matrix..."))
+        mat@x[mat@x > 0] <- 1       
+    }
+    
+    #Calc TF IDF
+    rowsToZero <- which(lsi$rowSm == 0)
+    setToZero <- which((mat@i + 1) %in% rowsToZero)
+    if(length(setToZero) > 0){
+        mat@x[setToZero] <- 0
+    }
+
+    message("Computing Term Frequency IDF...")
+    freqs <- t(t(mat)/Matrix::colSums(mat))
+    idf   <- as(log(1 + length(lsi$colSm) / lsi$rowSm), "sparseVector")
+    tfidf <- as(Matrix::Diagonal(x=as.vector(idf)), "sparseMatrix") %*% freqs
+    if(length(Matrix::which(is.na(tfidf),arr.ind=TRUE)) > 0){
+        tfidf[Matrix::which(is.na(tfidf),arr.ind=TRUE)] <- 0 #weird Inf * 0
+    }
+
+    #Calc V
+    V <- t(tfidf) %*% lsi$svd$u %*% diag(1/lsi$svd$d)
+
+    #Calc SVD then LSI
+    message("Computing SVD using irlba...")
+    svdDiag <- matrix(0, nrow=lsi$nComponents, ncol=lsi$nComponents)
+    diag(svdDiag) <- lsi$svd$d
+    matSVD <- t(svdDiag %*% t(V))
+    rownames(matSVD) <- colnames(mat)
+    colnames(matSVD) <- paste0("PC",seq_len(ncol(matSVD)))
+    
+    return(matSVD)
+    
+}
+
 #Sparse Variances Rcpp
 sourceCpp(code='
   #include <Rcpp.h>

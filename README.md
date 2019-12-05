@@ -43,9 +43,35 @@ neighbors across modalities.
 
 ### These links may be moved if we can find a better host for better download speed
 
+## Notes
+
+### .rds file is an R binarized object to read into R use readRDS(filename)
+### SummarizedExperiment is a class in R see : https://bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html
+### deviations (TF chromVAR) is a class in R see : https://bioconductor.org/packages/release/bioc/html/chromVAR.html
+
 ## Healthy Hematopoiesis
 
+**scATAC-seq Hematopoeisis cell x peak Summarized Experiment** :
+**scATAC-seq Hematopoeisis cell x TF chromVAR Summarized Experiment** :
+**scRNA-seq Hematopoeisis cell x gene Summarized Experiment** :
+**scADT-seq Hematopoeisis cell x antibody Summarized Experiment** :
+
 ## Healthy + MPAL Data Sets
+
+**scATAC-seq Hematopoeisis + MPAL cell x peak Summarized Experiment** :
+**scATAC-seq Hematopoeisis + MPAL cell x TF chromVAR Summarized Experiment** :
+**scRNA-seq Hematopoeisis + MPAL cell x gene Summarized Experiment** :
+**scADT-seq Hematopoeisis + MPAL cell x antibody Summarized Experiment** :
+
+## LSI-Projection 
+
+**scATAC-seq saved UMAP embedding** :
+**scRNA-seq saved UMAP embedding** :
+
+## Integration
+
+**Peak-To-Gene Linkages** :
+**Peak-To-Gene Linkages** :
 
 ## Other
 

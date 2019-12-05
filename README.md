@@ -79,9 +79,9 @@ neighbors across modalities.
 
 ## LSI-Projection 
 
-**scATAC-seq saved UMAP embedding** :
+**scATAC-seq saved UMAP embedding** : <br/> https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/LSI-Projection/scATAC-Projection-UMAP.zip
 
-**scRNA-seq saved UMAP embedding** :
+**scRNA-seq saved UMAP embedding** : <br/> https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/LSI-Projection/scRNA-Projection-UMAP.zip
 
 ## Integration
 
@@ -91,5 +91,10 @@ neighbors across modalities.
 
 **MPAL Clinical FACS Data** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data_Revision_MPAL_FACS_FCS.zip
 
+**Differential Results MPAL (scRNA + scATAC)** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/LSI-Projection/MPAL-Differential-Results.zip
+
+**Differential Results AML (scRNA)** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/LSI-Projection/scRNA-AML-Analyses.zip
+
+**Differential Results Bulk Leuekemias (bulk RNA)** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/LSI-Projection/Bulk-Leukemias-RNA-Differential-Results.zip
 
 

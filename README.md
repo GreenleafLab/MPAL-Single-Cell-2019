@@ -1,13 +1,8 @@
-# MPAL-Single-Cell-2019
-Analysis Repository Code for MPAL Paper 2019
+# MPAL-Single-Cell-2019 Analysis Code (Granja JM*, Klemm SK*, McGinnis LM*, et al. 2019)
 
-# Data Download Links
+Link : https://www.nature.com/articles/s41587-019-0332-7
 
-## Healthy Hematopoiesis
-
-## Healthy + MPAL Data Sets
-
-## Other
+## Please cite : Granja JM et al., Single-cell multiomic analysis identifies regulatory programs in mixed-phenotype acute leukemia. Nature Biotechnology (2019)
 
 # Brief Descriptions of Analysis Scripts
 
@@ -44,6 +39,13 @@ scRNA_scATAC_Integration_03 - Identify putative Peak-To-Gene Links with aligned 
 
 scRNA_scATAC_Integration_04 - Link TFs to putative target genes that are differential in both mRNA and nearby accessibility peaks containing motifs of the TFs.
 
+# Data Download Links
+
+## Healthy Hematopoiesis
+
+## Healthy + MPAL Data Sets
+
+## Other
 
 
 

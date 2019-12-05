@@ -47,9 +47,9 @@ neighbors across modalities.
 
 **.rds** file is an R binarized object to read into R use readRDS(filename)
 
-**SummarizedExperiment** is a class in R see : https://bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html
+**SummarizedExperiment** is a class in R see : <br/>https://bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html
 
-**deviations** (TF chromVAR) is a class in R see : https://bioconductor.org/packages/release/bioc/html/chromVAR.html
+**deviations** (TF chromVAR) is a class in R see : <br/>https://bioconductor.org/packages/release/bioc/html/chromVAR.html
 
 ## Healthy Hematopoiesis
 
@@ -83,8 +83,7 @@ neighbors across modalities.
 
 ## Other
 
-**MPAL Clinical FACS Data** : 
-https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data_Revision_MPAL_FACS_FCS.zip
+**MPAL Clinical FACS Data** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data_Revision_MPAL_FACS_FCS.zip
 
 
 

@@ -46,7 +46,9 @@ neighbors across modalities.
 ## Notes
 
 **.rds** file is an R binarized object to read into R use readRDS(filename)
+
 **SummarizedExperiment** is a class in R see : https://bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html
+
 **deviations** (TF chromVAR) is a class in R see : https://bioconductor.org/packages/release/bioc/html/chromVAR.html
 
 ## Healthy Hematopoiesis

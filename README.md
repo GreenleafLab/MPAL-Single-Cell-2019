@@ -79,13 +79,16 @@ neighbors across modalities.
 
 ## LSI-Projection 
 
-**scATAC-seq saved UMAP embedding** : <br/> https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/LSI-Projection/scATAC-Projection-UMAP.zip
+**scATAC-seq saved UMAP embedding** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/LSI-Projection/scATAC-Projection-UMAP.zip
 
-**scRNA-seq saved UMAP embedding** : <br/> https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/LSI-Projection/scRNA-Projection-UMAP.zip
+**scRNA-seq saved UMAP embedding** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/LSI-Projection/scRNA-Projection-UMAP.zip
 
 ## Integration
 
-**Peak-To-Gene Linkages** :
+**Peak-To-Gene Linkages** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Integration/MPAL-Significant-Peak2Gene-Links.tsv.gz
+
+**scRNA to scATAC mappings** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Integration/scATAC-scRNA-mappings.rds
+
 
 ## Other
 

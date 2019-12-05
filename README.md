@@ -79,8 +79,6 @@ neighbors across modalities.
 
 **Peak-To-Gene Linkages** :
 
-**Peak-To-Gene Linkages** :
-
 ## Other
 
 **MPAL Clinical FACS Data** : https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data_Revision_MPAL_FACS_FCS.zip

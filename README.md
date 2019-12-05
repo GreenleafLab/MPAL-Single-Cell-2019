@@ -57,6 +57,8 @@ neighbors across modalities.
 
 **scATAC-seq Hematopoeisis cell x peak Summarized Experiment** :
 
+**scATAC-seq Hematopoeisis cell x gene activity Summarized Experiment** :
+
 **scATAC-seq Hematopoeisis cell x TF chromVAR Summarized Experiment** :
 
 **scRNA-seq Hematopoeisis cell x gene Summarized Experiment** :
@@ -66,6 +68,8 @@ neighbors across modalities.
 ## Healthy + MPAL Data Sets
 
 **scATAC-seq Hematopoeisis + MPAL cell x peak Summarized Experiment** :
+
+**scATAC-seq Hematopoeisis + MPAL cell x gene activity Summarized Experiment** :
 
 **scATAC-seq Hematopoeisis + MPAL cell x TF chromVAR Summarized Experiment** :
 

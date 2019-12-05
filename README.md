@@ -4,6 +4,8 @@
 
 ## Please cite : Granja JM et al., Single-cell multiomic analysis identifies regulatory programs in mixed-phenotype acute leukemia. Nature Biotechnology (2019)
 
+![](Figure1.png)
+
 # Brief Descriptions of Analysis Scripts
 
 ## scATAC Analyses

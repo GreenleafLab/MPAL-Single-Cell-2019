@@ -41,6 +41,8 @@ neighbors across modalities.
 
 **scRNA_scATAC_Integration_04** - Link TFs to putative target genes that are differential in both mRNA and nearby accessibility peaks containing motifs of the TFs.
 
+# GEO Accession : GSE139369 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139369
+
 # Additional Data Download Links
 
 ### These links may be moved if we can find a better host for better download speed

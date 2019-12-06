@@ -79,15 +79,15 @@ neighbors across modalities.
 
 ## Healthy + MPAL Data Sets
 
-**scATAC-seq Hematopoeisis + MPAL cell x peak Summarized Experiment** : <br/>
+**scATAC-seq Hematopoeisis + MPAL cell x peak Summarized Experiment** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Healthy-Disease-Data/scATAC-All-Hematopoiesis-MPAL-191120.rds
 
-**scATAC-seq Hematopoeisis + MPAL cell x gene activity Summarized Experiment** : <br/>
+**scATAC-seq Hematopoeisis + MPAL cell x gene activity Summarized Experiment** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Healthy-Disease-Data/scATAC-Cicero-GA-Hematopoiesis-MPAL-191120.rds
 
-**scATAC-seq Hematopoeisis + MPAL cell x TF chromVAR Summarized Experiment** : <br/>
+**scATAC-seq Hematopoeisis + MPAL cell x TF chromVAR Summarized Experiment** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Healthy-Disease-Data/scATAC-chromVAR-All-Hematopoiesis-MPAL-191120.rds
 
-**scRNA-seq Hematopoeisis + MPAL cell x gene Summarized Experiment** : <br/>
+**scRNA-seq Hematopoeisis + MPAL cell x gene Summarized Experiment** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Healthy-Disease-Data/scRNA-All-Hematopoiesis-MPAL-191120.rds
 
-**scADT-seq Hematopoeisis + MPAL cell x antibody Summarized Experiment** : <br/>
+**scADT-seq Hematopoeisis + MPAL cell x antibody Summarized Experiment** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Healthy-Disease-Data/scADT-All-Hematopoiesis-MPAL-191120.rds
 
 **Note 1.** The peakset for Hematopoiesis + MPAL is different than that for Hematopoiesis because we used the same peak calling pipeline where pre-clustering was done using all the cells (ie Hematopoiesis + MPAL) then peaks called so that we could easily include malignant peaks. This did not result in many ~10-20% additional peaks, but they may not be the exact coordinates as in the previous file.
 

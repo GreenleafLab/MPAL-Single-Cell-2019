@@ -45,8 +45,11 @@ neighbors across modalities.
 
 ### GEO Accession : GSE139369 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139369 <br/>
 
-### You will be able to download raw 10x Bam Files which can be converted back to fastq using bamtofastq <br/> (https://support.10xgenomics.com/docs/bamtofastq) if you have issues with this please reach out to support@10xgenomics
-### You will be able to download raw 10x Bam Files which can be converted back to fastq using bamtofastq <br/>
+### You will be able to download raw 10x Bam Files which can be converted back to fastq using bamtofastq (https://support.10xgenomics.com/docs/bamtofastq) if you have issues with this please reach out to support@10xgenomics <br/>
+
+### scATAC-seq fragment files which contain fragment coordinates
+
+### scRNA-seq/scADT-seq individual matrices (recommend looking below for summarized experiments)
 
 # Additional Data Download Links
 

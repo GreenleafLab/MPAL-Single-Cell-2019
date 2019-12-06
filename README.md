@@ -1,4 +1,4 @@
-# Publication Page : Single-cell multiomic analysis identifies regulatory programs in mixed-phenotype acute leukemia. Nature Biotechnology (Granja JM*, Klemm SK*, McGinnis LM*, et al. 2019)
+# Single-cell multiomic analysis identifies regulatory programs in mixed-phenotype acute leukemia. Nature Biotechnology (Granja JM*, Klemm SK*, McGinnis LM*, et al. 2019)
 
 **Link** : https://www.nature.com/articles/s41587-019-0332-7
 

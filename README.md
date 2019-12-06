@@ -77,6 +77,8 @@ neighbors across modalities.
 
 ## Healthy + MPAL Data Sets
 
+**Note** The peakset for Hematopoiesis + MPAL is different than that for Hematopoiesis because we used the same peak calling pipeline where pre-clustering was done using all the cells (ie Hematopoiesis + MPAL) then peaks called so that we could easily include malignant peaks. This did not result in many ~10-20% additional peaks, but they may not be the exact coordinates as in the previous file.
+
 **scATAC-seq Hematopoeisis + MPAL cell x peak Summarized Experiment** :
 
 **scATAC-seq Hematopoeisis + MPAL cell x gene activity Summarized Experiment** :

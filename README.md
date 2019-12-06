@@ -71,7 +71,7 @@ neighbors across modalities.
 
 **scATAC-seq Hematopoeisis cell x TF chromVAR Summarized Experiment** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Healthy-Data/scATAC-chromVAR-Hematopoiesis-191120.rds
 
-**scRNA-seq Hematopoeisis cell x gene Summarized Experiment** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Healthy-Data/scATAC-Cicero-GA-Hematopoiesis-191120.rds
+**scRNA-seq Hematopoeisis cell x gene Summarized Experiment** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Healthy-Data/scRNA-Healthy-Hematopoiesis-191120.rds
 
 **scADT-seq Hematopoeisis cell x antibody Summarized Experiment** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Healthy-Data/scADT-Healthy-Hematopoiesis-191120.rds
 

@@ -43,6 +43,9 @@ neighbors across modalities.
 
 # GEO Accession : GSE139369 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139369
 
+### You will be able to download raw 10x Bam Files which can be converted back to fastq using bamtofastq <br/> (https://support.10xgenomics.com/docs/bamtofastq) if you have issues with this please reach out to support@10xgenomics
+### You will be able to download raw 10x Bam Files which can be converted back to fastq using bamtofastq <br/>
+
 # Additional Data Download Links
 
 ### These links may be moved if we can find a better host for better download speed

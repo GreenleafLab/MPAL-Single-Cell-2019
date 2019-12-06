@@ -65,6 +65,8 @@ neighbors across modalities.
 
 ## Healthy Hematopoiesis
 
+**Note1** If you want to get the biological classifications for each cell use colData(se)$BioClassification.
+
 **scATAC-seq Hematopoeisis cell x peak Summarized Experiment** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Healthy-Data/scATAC-Healthy-Hematopoiesis-191120.rds
 
 **scATAC-seq Hematopoeisis cell x gene activity Summarized Experiment** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Healthy-Data/scATAC-Cicero-GA-Hematopoiesis-191120.rds
@@ -77,7 +79,9 @@ neighbors across modalities.
 
 ## Healthy + MPAL Data Sets
 
-**Note** The peakset for Hematopoiesis + MPAL is different than that for Hematopoiesis because we used the same peak calling pipeline where pre-clustering was done using all the cells (ie Hematopoiesis + MPAL) then peaks called so that we could easily include malignant peaks. This did not result in many ~10-20% additional peaks, but they may not be the exact coordinates as in the previous file.
+**Note1** The peakset for Hematopoiesis + MPAL is different than that for Hematopoiesis because we used the same peak calling pipeline where pre-clustering was done using all the cells (ie Hematopoiesis + MPAL) then peaks called so that we could easily include malignant peaks. This did not result in many ~10-20% additional peaks, but they may not be the exact coordinates as in the previous file.
+
+**Note2** If you want to get projected positions/classifications for MPALs onto hematopoiesis use colData(se)$ProjectedUMAP1, colData(se)$ProjectedUMAP2, and  colData(se)$ProjectedClassification.
 
 **scATAC-seq Hematopoeisis + MPAL cell x peak Summarized Experiment** :
 

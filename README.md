@@ -79,15 +79,15 @@ neighbors across modalities.
 
 ## Healthy + MPAL Data Sets
 
-**scATAC-seq Hematopoeisis + MPAL cell x peak Summarized Experiment** :
+**scATAC-seq Hematopoeisis + MPAL cell x peak Summarized Experiment** : <br/>
 
-**scATAC-seq Hematopoeisis + MPAL cell x gene activity Summarized Experiment** :
+**scATAC-seq Hematopoeisis + MPAL cell x gene activity Summarized Experiment** : <br/>
 
-**scATAC-seq Hematopoeisis + MPAL cell x TF chromVAR Summarized Experiment** :
+**scATAC-seq Hematopoeisis + MPAL cell x TF chromVAR Summarized Experiment** : <br/>
 
-**scRNA-seq Hematopoeisis + MPAL cell x gene Summarized Experiment** :
+**scRNA-seq Hematopoeisis + MPAL cell x gene Summarized Experiment** : <br/>
 
-**scADT-seq Hematopoeisis + MPAL cell x antibody Summarized Experiment** :
+**scADT-seq Hematopoeisis + MPAL cell x antibody Summarized Experiment** : <br/>
 
 **Note 1.** The peakset for Hematopoiesis + MPAL is different than that for Hematopoiesis because we used the same peak calling pipeline where pre-clustering was done using all the cells (ie Hematopoiesis + MPAL) then peaks called so that we could easily include malignant peaks. This did not result in many ~10-20% additional peaks, but they may not be the exact coordinates as in the previous file.
 
@@ -98,6 +98,8 @@ neighbors across modalities.
 **scATAC-seq saved UMAP embedding** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/LSI-Projection/scATAC-Projection-UMAP.zip
 
 **scRNA-seq saved UMAP embedding** : <br/>https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/LSI-Projection/scRNA-Projection-UMAP.zip
+
+**Note 1.** To project into the reference hematopoiesis we used in this paper you need to use the uwot.tar file for either modality.
 
 ## Integration
 

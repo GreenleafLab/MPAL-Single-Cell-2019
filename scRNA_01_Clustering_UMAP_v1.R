@@ -78,6 +78,20 @@ calcLSI <- function(mat, nComponents = 50, binarize = TRUE, nFeatures = NULL){
 
 }
 
+#Clustering function using seurat SNN (Seurat v2.3.4)
+seuratSNN <- function(matSVD, dims.use = 1:50, ...){
+  set.seed(1)
+  message("Making Seurat Object...")
+  mat <- matrix(rnorm(nrow(matSVD) * 3, 1000), ncol = nrow(matSVD), nrow = 3)
+  colnames(mat) <- rownames(matSVD)
+  obj <- Seurat::CreateSeuratObject(mat, project='scATAC', min.cells=0, min.genes=0)
+  obj <- Seurat::SetDimReduction(object = obj, reduction.type = "pca", slot = "cell.embeddings", new.data = matSVD)
+  obj <- Seurat::SetDimReduction(object = obj, reduction.type = "pca", slot = "key", new.data = "PC")
+  obj <- Seurat::FindClusters(object = obj, reduction.type = "pca", dims.use = dims.use, print.output = TRUE, ...)
+  clust <- obj@meta.data[,ncol(obj@meta.data)]
+  paste0("Cluster",match(clust, unique(clust)))
+}
+
 #Sparse Variances Rcpp
 sourceCpp(code='
   #include <Rcpp.h>

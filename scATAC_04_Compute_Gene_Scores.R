@@ -381,7 +381,7 @@ o <- o[o[,1]!=o[,2],]
 #However we decided to proceed with a Log2 Transformed
 #Aggregtate Matrix
 logMat <- log2(edgeR::cpm(assayData(ciceroObj)$exprs)+1)
-o$cor <- ArchR:::rowCorCpp(o[,1], o[,2], logMat, logMat)
+o$cor <- rowCorCpp(o[,1], o[,2], logMat, logMat)
 connections <- data.frame(
     Peak1 = featureData(ciceroObj)[[1]][o[,1]], 
     Peak2 = featureData(ciceroObj)[[1]][o[,2]], 

@@ -184,6 +184,26 @@ seuratSNN <- function(matSVD, dims.use = 1:50, print.output = TRUE, ...){
   paste0("Cluster",match(clust, unique(clust)))
 }
 
+sparseMatTTest <- function(mat1, mat2, m0 = 0){
+	#Get Population Values
+	n1 <- ncol(mat1)
+	n2 <- ncol(mat2)
+	n <- n1 + n2
+	#Sparse Row Means
+	m1 <- Matrix::rowMeans(mat1, na.rm=TRUE)
+	m2 <- Matrix::rowMeans(mat2, na.rm=TRUE)
+	#Sparse Row Variances
+	v1 <- ArchRx:::computeSparseRowVariances(mat1@i + 1, mat1@x, m1, n1)
+	v2 <- ArchRx:::computeSparseRowVariances(mat2@i + 1, mat2@x, m2, n2)
+	#Calculate T Statistic
+	se <- sqrt( (1/n1 + 1/n2) * ((n1-1)*v1 + (n2-1)*v2)/(n1+n2-2) )
+    tstat <- (m1-m2-m0)/se
+	#tstat <- sqrt((n1 * n2) / n) / sqrt((n1-1)/(n-2)*v1 + (n2-1)/(n-2)*v2)
+	pvalue <- 2*pt(-abs(tstat), n - 2)
+	fdr <- p.adjust(pvalue, method = "fdr")
+	out <- data.frame(fdr = fdr, pval = pvalue, tstat = tstat, mean1 = m1, mean2 = m2, var1 = v1, var2 = v2, n1 = n1, n2 = n2)
+	return(out)
+}
 
 ####################################################
 #Input Data

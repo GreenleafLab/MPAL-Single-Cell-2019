@@ -6,11 +6,11 @@
 
 ![](Figure1.png)
 
-## For current up to date scATAC-seq analysis https://github.com/GreenleafLab/ArchR
-
 # Brief Descriptions of Analysis Scripts
 
 ## scATAC Analyses
+
+# For current up to date scATAC-seq analysis https://github.com/GreenleafLab/ArchR
 
 **scATAC_01** - Script for reading in 10x scATAC-seq fragments identify cells using number of fragments and TSS enrichment scores and saving fitlered fragments.
 

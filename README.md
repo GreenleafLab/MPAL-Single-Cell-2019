@@ -6,6 +6,8 @@
 
 ![](Figure1.png)
 
+## For current up to date scATAC-seq analysis https://github.com/GreenleafLab/ArchR
+
 # Brief Descriptions of Analysis Scripts
 
 ## scATAC Analyses

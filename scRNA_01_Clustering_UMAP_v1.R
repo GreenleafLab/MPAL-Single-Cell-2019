@@ -213,7 +213,7 @@ se <- readRDS("data/Supplementary_Data_Hematopoiesis/scRNA-Healthy-Hematopoiesis
 #For Clustering Analysis Start Here
 ####################################################
 nPCs <- 1:25 #Number of PCs for clustering
-nTop <- 3000 #Choose a higher number of variable peaks
+nTop <- c(3000, 3000, 3000) #Choose a higher number of variable peaks
 resolution <- c(0.2,0.6,1.0) #Clustering resolutions for Seurat SNN
 
 #Optimize LSI Features

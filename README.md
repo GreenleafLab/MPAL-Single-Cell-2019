@@ -12,7 +12,7 @@
 
 **For current up to date scATAC-seq analysis https://github.com/GreenleafLab/ArchR**
 
-**scATAC_01** - Script for reading in 10x scATAC-seq fragments identify cells using number of fragments and TSS enrichment scores and saving fitlered fragments.
+**scATAC_01** - Script for reading in 10x scATAC-seq fragments identify cells using number of fragments and TSS enrichment scores and saving filtered fragments.
 
 **scATAC_02** - Script for pre-clustering using large windows genome-wide and then calling peaks on putative clusters and create a master peak set
 
@@ -34,7 +34,7 @@ cells onto healthy hematopoiesis.
 
 ## Integration (scATAC + scRNA) Analyses
 
-**scRNA_scATAC_Integration_01** - Alignment of scRNA and scATAC-seq data using Seurat CCA and identifcation of nearest
+**scRNA_scATAC_Integration_01** - Alignment of scRNA and scATAC-seq data using Seurat CCA and identification of nearest
 neighbors across modalities.
 
 **scRNA_scATAC_Integration_02** - Aggregate scRNA + scATAC-seq data for correlation focused analysis.
